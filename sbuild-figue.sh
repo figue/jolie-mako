@@ -6,7 +6,7 @@ if ! python --version 2>&1 | grep 2.7 ; then
     exit 1
 fi
 
-BASE_SEMA_VER="Jolie_Kernel_Mako_1.8.0"
+BASE_SEMA_VER="Jolie_Kernel_Mako_1.8.5"
 VER=""
 SEMA_VER=$BASE_SEMA_VER$VER
 
