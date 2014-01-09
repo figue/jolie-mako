@@ -7,7 +7,7 @@ if ! python --version 2>&1 | grep 2.7 ; then
 fi
 
 BASE_SEMA_VER="Jolie_Kernel_Mako_"
-VER="1.8.8"
+VER="2.0.0"
 SEMA_VER=$BASE_SEMA_VER$VER
 
 #export KBUILD_BUILD_VERSION="2"
@@ -73,7 +73,7 @@ cd ../
 #./mkbootimg
 
 cp boot.img $CWM_DIR
-cd $CWM_DIR
+cd $CWM_ANY_DIR
 cp ../Jolie_temp.zip ../`echo $SEMA_VER`.zip
 zip -r ../`echo $SEMA_VER`.zip *
 
