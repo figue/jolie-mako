@@ -7,7 +7,7 @@ if ! python --version 2>&1 | grep 2.7 ; then
 fi
 
 BASE_SEMA_VER="Jolie_Kernel_Mako_"
-VER="2.0.0"
+VER="2.0.0-4"
 SEMA_VER=$BASE_SEMA_VER$VER
 
 #export KBUILD_BUILD_VERSION="2"
