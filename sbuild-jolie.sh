@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# Check Python is 2.7.x
-if ! python --version 2>&1 | grep 2.7 ; then
-    echo Python must be v2.7.x
-    exit 1
-fi
+# Python must be 2.7.x
+export PYTHON=python2
 
 BASE_SEMA_VER="Jolie_Kernel_Mako_"
-VER="2.2.2"
+VER="2.2.5"
 SEMA_VER=$BASE_SEMA_VER$VER
 
 #export KBUILD_BUILD_VERSION="2"
