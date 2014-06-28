@@ -4,7 +4,7 @@
 export PYTHON=python2
 
 BASE_SEMA_VER="Jolie_Kernel_Mako_"
-VER="2.2.5"
+VER="2.3.0"
 SEMA_VER=$BASE_SEMA_VER$VER
 
 #export KBUILD_BUILD_VERSION="2"
